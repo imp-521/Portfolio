@@ -1,9 +1,10 @@
-import React from 'react'
+import { Home } from "lucide-react";
+import React from "react";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <div><Home /></div>
+  );
+};
 
-export default HomePage
+export default HomePage;
