@@ -1,5 +1,6 @@
-import { Home } from "lucide-react";
+
 import React from "react";
+import Home from "../components/Home/Home";
 
 const HomePage = () => {
   return (
