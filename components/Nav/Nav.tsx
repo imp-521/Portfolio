@@ -49,7 +49,7 @@ const Nav = () => {
               <Link
                 href={item.href}
                 key={index}
-                className="text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-200 font-semibold hover:-translate-y-1 transition-all duration-300 ease-in-out group relative"
+                className="text-zinc-600 dark:text-zinc-300 hover:text-yellow-500 dark:hover:text-yellow-200 font-semibold hover:-translate-y-1 transition-all duration-300 ease-in-out group relative"
               >
                 <p>{item.name}</p>
                 <span className="w-0 bg-yellow-500 dark:bg-yellow-200 group-hover:w-full absolute left-1/2 -translate-x-1/2 -bottom-1 h-[2px] rounded-full trnasition-all duration-300 ease-in-out"></span>
@@ -69,7 +69,7 @@ const Nav = () => {
               strokeWidth={3}
               className="text-white font-bold"
             />
-            <span className="text-sm font-bold">Get Resume</span>
+            <span className="text-sm font-bold">Download CV</span>
           </a>
           {/* TOGGLE DARK MODE*/}
           <div>
