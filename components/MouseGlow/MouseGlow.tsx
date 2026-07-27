@@ -27,7 +27,7 @@ const MouseGlow = () => {
   }, []);
   return (
 
-      <motion.div style={{x:glowX , y:glowY}}  className="absolute w-80 h-80 md:w-96 md:h-96 rounded-full bg-purple-400/20 dark:bg-purple-500/15 blur-[100px] pointer-events-none -translate-x-1/2 -translate-y-1/2 z-0">
+      <motion.div style={{x:glowX , y:glowY}}  className="absolute w-80 h-80 md:w-96 md:h-96 rounded-full bg-blue-300/20 dark:bg-purple-500/15 blur-[100px] pointer-events-none -translate-x-1/2 -translate-y-1/2 z-0">
       </motion.div>
 
   )

@@ -35,7 +35,7 @@ const Nav = () => {
   return (
     <section>
       <div
-        className={`w-full h-18 flex items-center justify-between px-4 lg:px-30 fixed duration-200 z-100 ${scrolled ? "dark:bg-gray-800 bg-white shadow-md" : "fixed"}`}
+        className={`w-full h-16 flex items-center justify-between px-4 lg:px-30 fixed duration-200 z-500 ${scrolled ? "dark:bg-gray-800 bg-white shadow-md" : "fixed"}`}
       >
         {/* LOGO */}
         <div>
@@ -83,7 +83,7 @@ const Nav = () => {
       </div>
       {/* MOBILE MENU */}
       <div
-        className={`z-300 lg:hidden h-screen w-full fixed bg-black/70 inset-0 -translate-x-200 transition duration-300 ${menuVisible == true ? "translate-x-0" : "-translate-x-200 transition ease-in-out duration-500"}`}
+        className={`z-1000 lg:hidden h-screen w-full fixed bg-black/70 inset-0 -translate-x-200 transition duration-300 ${menuVisible == true ? "translate-x-0" : "-translate-x-200 transition ease-in-out duration-500"}`}
       >
         <div
           className={`transition duration-500 h-screen w-[80%] bg-purple-800 text-white flex items-start justify-center flex-col gap-6 relative px-10 -translate-x-180 ${panelOpen == true ? "translate-x-0 transition ease-in-out duration-500" : "-translate-x-180"}`}
