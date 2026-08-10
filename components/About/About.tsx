@@ -1,8 +1,12 @@
+"use client"
 import React from "react";
 import SectionHeading from "../Helper/SectionHeading";
 import image from "../../public/images/my-picture.png";
 import { Briefcase, Clock3, Coffee, MapPin } from "lucide-react";
 import { states } from "@/data";
+import Counter from "../Helper/Counter";
+import { delay, motion } from "framer-motion";
+
 
 const About = () => {
   return (
@@ -21,13 +25,13 @@ const About = () => {
         </div>
 
         <div className=" w-full flex items-center justify-center flex-col gap-6 md:flex-row">
-          <div className="w-full flex-1 flex items-center justify-center">
+          <motion.div initial={{opacity:0 , x:-60}} whileInView={{opacity:1 , x:0}} viewport={{amount:0.2}} transition={{duration : 0.7, ease:"easeOut"}} className="w-full flex-1 flex items-center justify-center">
             <img
               className="rounded-xl object-cover w-100 h-100 lg:w-120 lg:h-120"
               src={image.src}
             />
-          </div>
-          <div className="w-full flex-1">
+          </motion.div>
+          <motion.div initial={{opacity:0 , x:60}} whileInView={{opacity:1 , x:0}} transition={{duration : 0.7, ease:"easeOut", delay:0.15}} className="w-full flex-1">
             <h2 className="font-bold text-2xl pb-4 sm:text-center md:text-left">
               A passionate developer <br className="sm:hidden" /> who loves to
               create
@@ -77,17 +81,17 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         {/* STATS */}
         <div className="mt-6 md:mt-10 w-full h-auto mb-10">
-           <div className="w-full h-auto grid grid-cols-2 sm:grid-cols-4 gap-6">
+           <motion.div className="w-full h-auto grid grid-cols-2 sm:grid-cols-4 gap-6">
             {states.map((stat) => {
               return(
                 <div key={stat.label} className="flex-1 flex items-center justify-center flex-col bg-white shadow rounded-xl p-4 gap-2 dark:bg-gray-800">
                     <div className="flex flex-1 items-center justify-center w-full h-full text-3xl text-purple-600 font-bold md:text-4xl">
-                       {stat.value}
+                      <Counter target={stat.value} /><span>+</span>
                     </div>
                     <div className="flex flex-1 items-center justify-center w-full h-full">
                        <p className="text-sm text-center text-muted-foreground">{stat.label}</p>
@@ -95,7 +99,7 @@ const About = () => {
                 </div>
               )
             })}
-           </div>
+           </motion.div>
         </div>
 
       </div>
