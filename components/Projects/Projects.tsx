@@ -11,10 +11,10 @@ const Projects = () => {
             <div className='w-full flex items-center justify-center'>
             <SectionHeading title1='Featured' title2='Projects' description='A selection of my recent work and side projects'/>
             </div>
-            <div className='w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+            <div className='w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6'>
              {projects.map((project,index) => {
                 return(
-                    <div key={index}>
+                    <div key={index} className='mb-10'>
                        <ProjectCard {...project}/>
                     </div>
                 )

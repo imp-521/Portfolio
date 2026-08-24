@@ -25,14 +25,14 @@ const ProjectCard = ({
 }: Props) => {
   return (
     <div className="group bg-white dark:bg-gray-800 shadow-md rounded-2xl overflow-hidden flex items-center justify-center flex-col">
-      <div className="relative w-full h-45 group-hover:scale-105 transition-all duration-300">
+      <div className="relative w-full h-35 sm:h-40  group-hover:scale-105 transition-all duration-300">
         <Image src={image} alt={title} fill className="object-fill"/>
       </div>
       <div className="p-6 flex-1">
         <h3 className="text-xl text-black dark:text-white font-semibold mb-2 group-hover:text-blue-500 transition-colors">
           {title}
         </h3>
-        <p className="text-muted-foreground text-sm mb-4 line-clamp-4">
+        <p className="text-muted-foreground text-sm line-clamp-4 sm:line-clamp-2">
           {description}
         </p>
       </div>
@@ -51,7 +51,7 @@ const ProjectCard = ({
       <div className="flex w-full items-center justify-center mb-5 gap-2 flex-1">
         <div className="flex gap-3">
           {demoUrl && (
-            <Button asChild className="flex-1 sm:h-10 text-sm">
+            <Button asChild className="flex-1 sm:h-8 text-sm">
               <a href={demoUrl} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="w-4 h-4 mr-2" />
                 Live Demo
@@ -61,7 +61,7 @@ const ProjectCard = ({
         </div>
         <div className="flex gap-3">
           {githubUrl && (
-            <Button asChild variant="outline" className="flex-1 sm:h-10 sm:w-30 text-sm ">
+            <Button asChild variant="outline" className="flex-1 sm:h-8 sm:w-30 text-sm ">
               <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 <FaGithub className="w-4 h-4 mr-2" />
                 Github
