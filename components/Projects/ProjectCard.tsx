@@ -29,7 +29,7 @@ const ProjectCard = ({
         <Image src={image} alt={title} fill className="object-fill"/>
       </div>
       <div className="p-6 flex-1">
-        <h3 className="text-xl text-black dark:text-white font-semibold mb-2 group-hover:text-blue-500 transition-colors">
+        <h3 className="text-xl text-black dark:text-white font-semibold mb-2 group-hover:text-blue-500 transition-colors duration-300 dark:group-hover:text-blue-400">
           {title}
         </h3>
         <p className="text-muted-foreground text-sm line-clamp-4 sm:line-clamp-2">
@@ -51,7 +51,7 @@ const ProjectCard = ({
       <div className="flex w-full items-center justify-center mb-5 gap-2 flex-1">
         <div className="flex gap-3">
           {demoUrl && (
-            <Button asChild className="flex-1 sm:h-8 text-sm">
+            <Button asChild className="flex-1 sm:h-9 text-sm">
               <a href={demoUrl} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="w-4 h-4 mr-2" />
                 Live Demo
@@ -61,7 +61,7 @@ const ProjectCard = ({
         </div>
         <div className="flex gap-3">
           {githubUrl && (
-            <Button asChild variant="outline" className="flex-1 sm:h-8 sm:w-30 text-sm ">
+            <Button asChild variant="outline" className="flex-1 sm:h-9 sm:w-30 text-sm ">
               <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 <FaGithub className="w-4 h-4 mr-2" />
                 Github
