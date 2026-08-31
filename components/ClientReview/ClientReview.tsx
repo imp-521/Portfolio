@@ -28,21 +28,21 @@ const ClientReview = () => {
   };
   return (
     <section>
-      <div className="lg:px-30">
-        <div>
+      <div className="lg:px-30 bg-linear-to-br from-purple-100 via-slate-50 to-cyan-100 dark:from-purple-950 dark:via-zinc-950 dark:to-cyan-950 w-full h-auto flex items-center justify-center flex-col px-3 pt-5 pb-7 lg:pb-10 gap-3 lg:gap-5 lg:pt-6">
+        <div className="w-full h-auto">
           <SectionHeading
             title1="Our Client"
             title2="Review"
             description="Check out our client reviews"
           />
         </div>
-        <div>
+        <div className="w-full h-auto">
           <Carousel
 
             responsive={responsive}
             arrows={true}
             infinite={true}
-            autoPlay={false}
+            autoPlay={true}
             autoPlaySpeed={5000}
           >
             {userReviewData.map((user, index)=>{
