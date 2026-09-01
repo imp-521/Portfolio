@@ -77,19 +77,19 @@ export const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@johndoe.dev",
+    value: "sohrabiafshin6962@gmail.com",
     href: "mailto:hello@johndoe.dev",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
+    value: "09377447164",
     href: "tel:+15551234567",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Shiraz, Iran",
     href: "#",
   },
 ];
