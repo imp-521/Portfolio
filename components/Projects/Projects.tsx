@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard'
 
 const Projects = () => {
   return (
-    <section>
+    <section id='project' className='scroll-mt-16'>
         <div className='w-full h-auto px-6 lg:px-30 bg-linear-to-br from-slate-100 via-indigo-50 to-purple-100 dark:from-zinc-950 dark:via-indigo-950 dark:to-purple-950 flex items-center justify-center flex-col gap-10 pt-5 sm:gap-7 sm:px-10 lg:gap-10 lg:pt-10'>
             <div className='w-full flex items-center justify-center'>
             <SectionHeading title1='Featured' title2='Projects' description='A selection of my recent work and side projects'/>

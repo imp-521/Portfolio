@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const Skills = () => {
   return (
-    <section className=''>
+    <section id='skill' className='scroll-mt-16'>
         <div className='h-190 sm:h-auto md:h-120 lg:h-115 bg-linear-to-br from-indigo-50 via-white to-sky-100 dark:from-indigo-950 dark:via-zinc-900 dark:to-zinc-950 px-6 lg:px-30 flex items-center justify-center flex-col sm:gap-7 sm:px-10 sm:pt-5'>
             <div className="flex w-full flex-1 items-center justify-center">
                 <SectionHeading title1='Technical' title2='Skills' description="Technologies I've been working with recently"/>

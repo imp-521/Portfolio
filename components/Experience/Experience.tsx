@@ -14,7 +14,7 @@ const Experience = () => {
     target: timelineRef
   })
   return (
-    <section>
+    <section id='experience' className='scroll-mt-16'>
         <div className='w-full flex items-center justify-center flex-col px-6 h-auto pt-10 pb-10 gap-10  sm:gap-4 lg:gap-10 bg-linear-to-br from-violet-100 via-white to-cyan-100 dark:from-indigo-950 dark:via-zinc-900 dark:to-cyan-950 lg:px-60'>
             <div className='w-full flex items-center justify-center flex-1 text-center'>
                 <SectionHeading title1='Experience &' title2='Education' description='My professional journey and academic background'/>

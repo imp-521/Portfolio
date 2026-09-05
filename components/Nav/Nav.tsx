@@ -38,7 +38,7 @@ const Nav = () => {
         className={`w-full h-16 flex items-center justify-between px-4 lg:px-30 fixed duration-200 z-600 ${scrolled ? "dark:bg-gray-800 bg-white shadow-md" : "fixed"}`}
       >
         {/* LOGO */}
-        <div>
+        <div >
           <Logo />
         </div>
 

@@ -9,7 +9,7 @@ import { delay, motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className="overflow-hidden h-auto w-full relative">
+    <section id='about' className="overflow-hidden h-auto w-full relative scroll-mt-16">
       <div className="h-full w-full px-6 relative bg-linear-to-b from-purple-100 via-white to-sky-50 dark:from-indigo-950 dark:via-zinc-900 dark:to-zinc-950 flex items-center justify-start flex-col gap-3 lg:px-30">
         {/* BLOBS */}
         <div className="absolute -left-40 top-20 w-[400px] h-[400px] rounded-full bg-purple-400/15 blur-[140px] dark:bg-purple-500/10"></div>

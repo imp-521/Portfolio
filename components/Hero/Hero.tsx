@@ -8,7 +8,7 @@ import MouseGlow from "../MouseGlow/MouseGlow";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden h-160 sm:h-screen w-full">
+    <section id='hero' className="relative overflow-hidden h-160 sm:h-screen w-full">
       <MouseGlow />
       <div className="h-full md:h-screen w-full px-4 sm:px-15 md:px-30 lg:px-70 pt-20 flex items-center justify-center flex-col bg-linear-to-br from-sky-100 via-white to-purple-100 dark:from-zinc-950 dark:via-zinc-900 dark:to-indigo-950">
         {/* BLUBS */}

@@ -27,7 +27,7 @@ const ClientReview = () => {
     },
   };
   return (
-    <section>
+    <section id='client' className='scroll-mt-17'>
       <div className="lg:px-30 bg-linear-to-br from-purple-100 via-slate-50 to-cyan-100 dark:from-purple-950 dark:via-zinc-950 dark:to-cyan-950 w-full h-auto flex items-center justify-center flex-col px-3 pt-5 pb-7 lg:pb-10 gap-3 lg:gap-5 lg:pt-6">
         <div className="w-full h-auto">
           <SectionHeading

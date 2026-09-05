@@ -9,7 +9,7 @@ import { Send } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section>
+    <section id='contact' className='scroll-mt-17'>
       <div className="w-full h-auto bg-linear-to-br from-sky-50 via-white to-indigo-100 dark:from-zinc-950 dark:via-indigo-950 dark:to-sky-950 flex items-center justify-center flex-col px-6 pt-5 pb-7 lg:pb-10 gap-3 lg:gap-5 lg:pt-6 lg:px-50">
         <div className="w-full flex items-center justify-center pb-6">
           <SectionHeading
