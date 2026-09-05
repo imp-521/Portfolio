@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import {Inter } from "next/font/google";
 import "./globals.css";
 import Provider from "../components/Hoc/Provider";
+import ScrollToTop from "@/components/Helper/ScrollToTop/ScrollToTop";
 
 
 const font = Inter({
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={`${font.className}`}>
         <Provider>
             {children}
+            <ScrollToTop />
         </Provider>
         </body>
     </html>

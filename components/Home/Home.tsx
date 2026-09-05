@@ -7,6 +7,7 @@ import Projects from '../Projects/Projects'
 import Experience from '../Experience/Experience'
 import ClientReview from '../ClientReview/ClientReview'
 import Contact from '../ Contact/Contact'
+import Footer from '../Footer/Footer'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Experience />
       <ClientReview />
       <Contact />
+      <Footer />
     </div>
   )
 }
