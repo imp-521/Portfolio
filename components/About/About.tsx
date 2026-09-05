@@ -27,7 +27,7 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ amount: 0.2 }}
+            viewport={{ amount: 0.2, once: true }}
             transition={{ duration: 0.7, ease: "easeOut" }}
             className="w-full flex-1 flex items-center justify-center"
           >
@@ -38,6 +38,7 @@ const About = () => {
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 60 }}
+            viewport={{once: true }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, ease: "easeOut", delay: 0.15 }}
             className="w-full flex-1"
@@ -111,6 +112,7 @@ const About = () => {
               duration: 0.6,
               ease: "easeOut",
             }}
+            viewport={{once: true }}
             className="w-full h-auto grid grid-cols-2 sm:grid-cols-4 gap-6"
           >
             {states.map((stat) => {

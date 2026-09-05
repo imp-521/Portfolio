@@ -36,7 +36,7 @@ const ClientReview = () => {
             description="Check out our client reviews"
           />
         </div>
-        <div className="w-full h-auto">
+        <div className="w-full h-auto z-0">
           <Carousel
 
             responsive={responsive}

@@ -14,7 +14,7 @@ const Projects = () => {
             <div className='w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6'>
              {projects.map((project,index) => {
                 return(
-                    <div key={index} className='mb-10'>
+                    <div data-aos='fade-up' data-aos-delay={index * 100} key={index} className='mb-10'>
                        <ProjectCard {...project}/>
                     </div>
                 )

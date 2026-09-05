@@ -33,7 +33,7 @@ const Experience = () => {
                     const Icon = data.type === "work" ? Briefcase : GraduationCap;
                     const isEven = index % 2 === 0;
                     return(
-                       <div key={index} className={`relative w-full pl-12 sm:pl-0 md:w-1/2 
+                       <div data-aos='zoom-in' data-aos-delay={index * 100} key={index} className={`relative w-full pl-12 sm:pl-0 md:w-1/2 
                         ${isEven ? 'md:self-start md:pl-0 md:pr-8' : "md:self-end md:pl-8 md:pr-0"}`}>
                           <div className={`absolute left-0 top-6 -translate-x-1/2 w-7 h-7 rounded-full bg-purple-500 flex items-center justify-center ${isEven ? "md:left-auto md:right-0 md:translate-x-1/2"
                           : "left-0 -translate-x-1/2"}`}>

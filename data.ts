@@ -103,48 +103,42 @@ export const socialLinks = [
 export const experiences = [
   {
     type: "work",
-    title: "Senior Full-Stack Developer",
-    company: "TechCorp Inc.",
-    period: "2022 - Present",
+    title: "Frontend Developer",
+    company: "Freelance / Personal Projects",
+    period: "2025 - Present",
     description:
-      "Leading development of enterprise SaaS products. Mentoring junior developers and implementing best practices.",
-    technologies: ["React", "Node.js", "AWS", "TypeScript"],
+      "Developing modern and responsive web applications using React and Next.js. Building reusable components, responsive layouts, animations, and interactive user interfaces.",
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
   },
-  {
-    type: "work",
-    title: "Full-Stack Developer",
-    company: "StartupXYZ",
-    period: "2020 - 2022",
-    description:
-      "Built and maintained multiple web applications. Collaborated with design team to implement responsive UIs.",
-    technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
-  },
+
   {
     type: "education",
-    title: "Master of Computer Science",
-    company: "Stanford University",
-    period: "2018 - 2020",
+    title: "Web Development",
+    company: "Self-Taught",
+    period: "2024 - Present",
     description:
-      "Specialized in distributed systems and machine learning. Thesis on scalable microservices architecture.",
-    technologies: ["Research", "AI/ML", "Distributed Systems"],
+      "Continuously learning modern web development with a focus on React, Next.js, JavaScript, TypeScript, Tailwind CSS, and frontend development best practices.",
+    technologies: ["JavaScript", "React", "Next.js", "TypeScript"],
   },
+
   {
     type: "work",
-    title: "Junior Developer",
-    company: "WebAgency Co.",
-    period: "2018 - 2020",
+    title: "Frontend Developer",
+    company: "Personal Projects",
+    period: "2024 - 2025",
     description:
-      "Developed client websites and e-commerce platforms. Gained experience in agile methodologies.",
-    technologies: ["JavaScript", "PHP", "MySQL", "WordPress"],
+      "Created responsive websites and portfolio projects while improving skills in component-based development, UI design, responsive layouts, and modern frontend technologies.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
+
   {
     type: "education",
-    title: "Bachelor of Computer Science",
-    company: "UC Berkeley",
-    period: "2014 - 2018",
+    title: "Learning & Development",
+    company: "Independent Study",
+    period: "2024 - Present",
     description:
-      "Strong foundation in algorithms, data structures, and software engineering principles.",
-    technologies: ["Computer Science", "Mathematics", "Problem Solving"],
+      "Working on practical projects to strengthen frontend development skills and gain hands-on experience with modern tools and frameworks.",
+    technologies: ["Git", "GitHub", "Tailwind CSS", "Framer Motion"],
   },
 ];
 
@@ -161,7 +155,7 @@ export const projects = [
   description:
     "A modern grocery shopping platform with product browsing, category filtering, shopping cart, responsive design, and a seamless online shopping experience.",
   image: "/images/screen1.jpg",
-  techStack: ["React Js", "JavaScript", "CSS", "HTML"],
+  techStack: ["React Js", "JavaScript", "CSS"],
   demoUrl: "https://frolicking-platypus-2c3249.netlify.app/",
   githubUrl: "https://github.com/imp-521/Grocery-website.git",
 },

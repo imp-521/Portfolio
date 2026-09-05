@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
 
         <div className="w-full flex items-center justify-center flex-col lg:flex-row lg:gap-10">
-          <div className="flex flex-1 items-start justify-center gap-2 flex-col w-full">
+          <div data-aos='fade-right' data-aos-delay="300"   data-aos-anchor-placement="top-center"  className="flex flex-1 items-start justify-center gap-2 flex-col w-full">
             <div className="pb-4">
               <h3 className="text-2xl font-semibold mb-4">Let's talk</h3>
               <p className="text-muted-foreground">
@@ -74,7 +74,7 @@ const Contact = () => {
           </div>
 
           {/* contact form */}
-          <div className="flex flex-1 w-full shadow-md">
+          <div data-aos='fade-left' data-aos-delay="150"   data-aos-anchor-placement="top-center" className="flex flex-1 w-full shadow-md">
             <form className="bg-gray-200 dark:bg-gray-800 rounded-2xl p-8 w-full">
               <div className="flex gap-4 flex-col sm:flex-row items-center justify-center w-full">
                 <div className="flex flex-col gap-1 flex-1">
