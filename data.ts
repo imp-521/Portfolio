@@ -28,7 +28,7 @@ import {
   Terminal,
 } from "lucide-react";
 
-import {FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import {FaGithub, FaLinkedin, FaLinkedinIn, FaTelegram } from "react-icons/fa6";
 
 
 export const highlights = [
@@ -95,9 +95,9 @@ export const contactInfo = [
 ];
 
 export const socialLinks = [
-  { icon: FaGithub, href: "https://github.com", label: "GitHub" },
-  { icon: FaLinkedinIn, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: FaGithub, href: "https://github.com/imp-521", label: "GitHub" },
+  { icon: FaLinkedinIn, href: "http://www.linkedin.com/in/afshinsohrabi", label: "LinkedIn" },
+  { icon: FaTelegram, href: "https://t.me/imp_521", label: "Telegram" },
 ];
 
 export const experiences = [
@@ -143,15 +143,15 @@ export const experiences = [
 ];
 
 export const footerSocialLinks = [
-  { icon: FaGithub, href: "https://github.com", label: "GitHub" },
-  { icon: FaLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: FaGithub, href: "https://github.com/imp-521", label: "GitHub" },
+  { icon: FaLinkedin, href: "http://www.linkedin.com/in/afshinsohrabi", label: "LinkedIn" },
+  { icon: FaTelegram, href: "https://t.me/imp_521", label: "Telegram" },
+  { icon: Mail, href: "mailto:sohrabiafshin6962@gmail.com", label: "Email" },
 ];
 
 export const projects = [
   {
-  title: "Grocery E-Commerce Website",
+  title: "Grocery Website",
   description:
     "A modern grocery shopping platform with product browsing, category filtering, shopping cart, responsive design, and a seamless online shopping experience.",
   image: "/images/screen1.jpg",
@@ -173,8 +173,8 @@ export const projects = [
     "A modern and fully responsive grocery e-commerce website featuring product listings, categories, reusable React components, mobile navigation, and a clean user-friendly shopping interface.",
   image: "/images/screen3.jpg",
   techStack: ["HTML", "Tailwind CSS", "JavaScript"],
-  demoUrl: "https://frolicking-platypus-2c3249.netlify.app/",
-  githubUrl: "https://github.com/imp-521/Grocery-website.git",
+  demoUrl: "https://resonant-pothos-f0a146.netlify.app/",
+  githubUrl: "https://github.com/imp-521/Restaurant-website.git",
 },
 {
   title: "Coffee Shop Website",
