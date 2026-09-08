@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Download, Folder } from "lucide-react";
 import { motion } from "framer-motion";
 import MouseGlow from "../MouseGlow/MouseGlow";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -98,15 +99,18 @@ const Hero = () => {
             transition={{ delay: 1 }}
             className="w-full h-45 md:h-auto flex items-center justify-center flex-col sm:flex-row gap-3 lg:mb-20 md:mb-10 flex-1"
           >
-            <Button className="w-35 h-10  lg:h-12 lg:w-40 sm:w-35 sm:h-11 cursor-pointer">
-              <Folder />
-              View Projects
-            </Button>
-
-            <Button className="w-35 lg:w-40 h-10 lg:h-12 sm:w-35 sm:h-11 cursor-pointer">
+            <Link href="#project">
+             <Button className="w-35 h-10 lg:h-12 lg:w-40 sm:w-35 sm:h-11 cursor-pointer">
+               <Folder />
+               View Projects
+             </Button>
+            </Link>
+            <a href="/afshin-sohrabi.pdf" download="afshin-sohrabi.pdf">
+              <Button  className="w-35 lg:w-40 h-10 lg:h-12 sm:w-35 sm:h-11 cursor-pointer">
               <Download className="mr-2" />
               Download CV
-            </Button>
+              </Button>
+            </a>
           </motion.div>
         </div>
       </div>

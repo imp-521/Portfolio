@@ -38,9 +38,9 @@ const Nav = () => {
         className={`w-full h-16 flex items-center justify-between px-4 lg:px-30 fixed duration-200 z-600 ${scrolled ? "dark:bg-gray-800 bg-white shadow-md" : "fixed"}`}
       >
         {/* LOGO */}
-        <div >
+        <Link href="#hero">
           <Logo />
-        </div>
+        </Link>
 
         {/* NAVLINKS */}
         <div className="hidden lg:flex items-cetner justify-center gap-9 flex-row">
@@ -61,7 +61,8 @@ const Nav = () => {
         {/* BUTTON RE */}
         <div className="flex items-center justify-center flex-row gap-3">
           <a
-            href="#"
+            href="/afshin-sohrabi.pdf"
+            download="afshin-sohrabi.pdf"
             className="flex items-center justify-center gap-2 text-white px-3 py-2 lg:px-4 bg-indigo-600 rounded-md cursor-pointer transition-all duration-300 ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus-outline-none"
           >
             <DownloadIcon
@@ -83,7 +84,7 @@ const Nav = () => {
       </div>
       {/* MOBILE MENU */}
       <div
-        className={`z-1000 lg:hidden h-screen w-full fixed bg-black/70 inset-0 -translate-x-200 transition duration-300 ${menuVisible == true ? "translate-x-0" : "-translate-x-200 transition ease-in-out duration-500"}`}
+        className={`z-1000 lg:hidden h-screen w-full fixed bg-black/70 inset-0 -translate-x-200 transition duration-300 ${menuVisible == true ? "translate-x-0" : "-translate-x-0 transition ease-in-out duration-0"}`}
       >
         <div
           className={`transition duration-500 h-screen w-[80%] bg-purple-800 text-white flex items-start justify-center flex-col gap-6 relative px-10 -translate-x-180 ${panelOpen == true ? "translate-x-0 transition ease-in-out duration-500" : "-translate-x-180"}`}
@@ -93,6 +94,7 @@ const Nav = () => {
               <Link
                 href={item.href}
                 key={index}
+                onClick={closeMenu}
                 className="transition ease-in relative group hover:text-yellow-500"
               >
                 <p className="font-semibold text-lg">{item.name}</p>

@@ -15,12 +15,12 @@ const Skills = () => {
                 {skillCategories[0].skills.map((skill, index) => {
                     const Icon = skill.icon
                     return (
-                      <motion.div data-aos='zoom-in' data-aos-delay={index * 100} whileHover={{y:-5}} transition={{duration:0.2}} whileInView={{scale:1.05}} key={skill.name} className='flex items-center justify-center gap-1 flex-col bg-white dark:bg-purple-950 shadow-md rounded-xl p-4 group cursor-pointer'>
+                      <div data-aos='zoom-in' data-aos-delay={index * 100} key={skill.name} className='flex items-center justify-center gap-1 flex-col bg-white dark:bg-purple-950 shadow-md rounded-xl p-4 group cursor-pointe'>
                        <div className='w-12 h-12 lg:w-11 lg:h-11 bg-linear-to-br from-purple-400  to-blue-600 flex items-center justify-center rounded-lg group-hover:from-purple-300 group-hover:to-blue-800 transition-all duration-300'>
                         <Icon className='text-white w-6 h-6'/>
                        </div>
                        <h3 className='text-sm font-medium text-foreground'>{skill.name}</h3>
-                      </motion.div>
+                      </div>
                     )
                 })}
             </div>
