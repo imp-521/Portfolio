@@ -1,29 +1,57 @@
 # 🚀 Personal Portfolio
 
-A modern, responsive and interactive personal portfolio website built with **Next.js, React, TypeScript and Tailwind CSS**.
+<div align="center">
 
-This portfolio is designed to showcase my experience, skills, projects, education and contact information through a clean and modern user interface.
+### Modern • Responsive • Interactive • Developer-focused
+
+A modern personal portfolio website built with **Next.js, React, TypeScript and Tailwind CSS**, designed to showcase my experience, skills, projects, education and professional journey through a clean and interactive interface.
+
+<br />
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-00C7B7?style=for-the-badge)](https://cool-cat-51bffb.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge\&logo=github)](https://github.com/imp-521/Portfolio)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge\&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge\&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge\&logo=typescript)](https://www.typescriptlang.org/)
+
+<br />
+
+### 🌐 [View Live Demo](https://cool-cat-51bffb.netlify.app/)
+
+</div>
+
+---
+
+## 📸 Preview
+
+<div align="center">
+
+<img src="./public/image/screen1.jpeg" alt="Portfolio Screenshot 1" width="90%" />
+
+<br />
+<br />
+
+<img src="./public/image/screen2.jpg" alt="Portfolio Screenshot 2" width="90%" />
+
+</div>
 
 ---
 
 ## 📌 Overview
 
-This project is my personal developer portfolio, created to present my frontend development journey and provide an easy way for visitors to explore my work, technical skills and experience.
+This project is my personal developer portfolio, created to present my frontend development journey and provide an easy way for visitors to explore my work, technical skills, experience and projects.
 
-The website focuses on:
+The website focuses on creating a modern, responsive and interactive experience while keeping the codebase clean, reusable and easy to maintain.
 
-* 🎨 Modern and responsive UI
-* ✨ Smooth animations and interactive elements
-* 📱 Mobile-first responsive design
-* 🧩 Reusable React components
-* 💼 Experience and education timeline
-* 🚀 Project showcase
-* 🛠️ Skills and technology overview
-* 📊 Personal statistics
-* 💬 Testimonials section
-* 📬 Contact information
-* 🔗 Social media and professional links
-* 🌙 Modern visual design with theme support
+### 🎯 Main Goals
+
+* Present my professional profile
+* Showcase my frontend development skills
+* Display selected projects
+* Highlight professional experience and education
+* Provide easy access to my social profiles
+* Create a responsive experience across all devices
+* Demonstrate modern React and Next.js development practices
 
 ---
 
@@ -65,12 +93,12 @@ A portfolio of selected projects demonstrating my experience with modern fronten
 
 ### 📊 Statistics
 
-The portfolio includes personal development statistics such as:
+The portfolio includes configurable development statistics such as:
 
-* Years of experience
-* Completed projects
-* Happy clients
-* Students taught
+* Years of Experience
+* Completed Projects
+* Happy Clients
+* Students Taught
 
 ### 💬 Testimonials
 
@@ -82,15 +110,91 @@ Visitors can easily find my contact information and connect with me through diff
 
 ### 🔗 Social Links
 
-The portfolio provides links to:
+The portfolio provides quick access to:
 
 * GitHub
 * LinkedIn
 * Telegram
 
+### ✨ Animations
+
+Interactive animations and visual effects powered by:
+
+* Framer Motion
+* AOS
+* React Type Animation
+
+### 📱 Responsive Design
+
+The website is designed to provide a consistent experience across:
+
+* 🖥️ Desktop
+* 💻 Laptop
+* 📱 Mobile
+* 📟 Tablet
+
+---
+
+## 🎥 Live Demo
+
+The portfolio is deployed and available online:
+
+<div align="center">
+
+### 🚀 [Visit My Portfolio](https://cool-cat-51bffb.netlify.app/)
+
+</div>
+
+---
+
+## 🖼️ Screenshots
+
+### 🖥️ Desktop / Main View
+
+<div align="center">
+
+<img src="./public/image/screen1.jpeg" alt="Portfolio Main Screenshot" width="90%" />
+
+</div>
+
+### 📱 Responsive / Additional View
+
+<div align="center">
+
+<img src="./public/image/screen2.jpg" alt="Portfolio Responsive Screenshot" width="90%" />
+
+</div>
+
 ---
 
 ## 🛠️ Tech Stack
+
+<div align="center">
+
+### Core
+
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge\&logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+
+### Styling
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
+![PostCSS](https://img.shields.io/badge/PostCSS-8-DD3A0A?style=for-the-badge\&logo=postcss\&logoColor=white)
+
+### Animation & UI
+
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF?style=for-the-badge\&logo=framer\&logoColor=white)
+![AOS](https://img.shields.io/badge/AOS-2.3.4-111111?style=for-the-badge)
+![Radix UI](https://img.shields.io/badge/Radix_UI-1.6.1-161618?style=for-the-badge)
+
+### Utilities
+
+![Lucide](https://img.shields.io/badge/Lucide_React-Icons-F56565?style=for-the-badge)
+![React Icons](https://img.shields.io/badge/React_Icons-5.7.0-61DAFB?style=for-the-badge)
+![Carousel](https://img.shields.io/badge/React_Multi_Carousel-2.8.6-764ABC?style=for-the-badge)
+
+</div>
 
 | Category          | Technology           |
 | ----------------- | -------------------- |
@@ -107,7 +211,86 @@ The portfolio provides links to:
 | Theme             | next-themes          |
 | Package Manager   | npm                  |
 
-The project's current dependencies and scripts are defined in `package.json`.
+---
+
+## 🧱 Architecture
+
+The project follows a component-based Next.js architecture.
+
+```text
+Portfolio/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── ...
+│
+├── components/
+│   ├── UI Components
+│   ├── Sections
+│   └── Reusable Components
+│
+├── Constant/
+│   └── Shared Constants
+│
+├── lib/
+│   └── Utility Functions
+│
+├── public/
+│   └── image/
+│       ├── screen1.jpeg
+│       └── screen2.jpg
+│
+├── data.ts
+├── next.config.ts
+├── tsconfig.json
+├── eslint.config.mjs
+├── postcss.config.mjs
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+### 🔄 Data Flow
+
+```text
+                 ┌─────────────────────┐
+                 │       data.ts       │
+                 │                     │
+                 │ • Experience        │
+                 │ • Projects          │
+                 │ • Skills            │
+                 │ • Testimonials      │
+                 │ • Contact           │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │   React Components  │
+                 │                     │
+                 │ • Hero              │
+                 │ • About             │
+                 │ • Skills            │
+                 │ • Experience        │
+                 │ • Projects          │
+                 │ • Contact           │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │      Next.js        │
+                 │                     │
+                 │ Rendering + Routing │
+                 └──────────┬──────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │   Responsive UI     │
+                 │                     │
+                 │ Desktop / Tablet /  │
+                 │ Mobile              │
+                 └─────────────────────┘
+```
 
 ---
 
@@ -131,8 +314,9 @@ Portfolio/
 │   └── ...
 │
 ├── public/
-│   └── images/
-│       └── ...
+│   └── image/
+│       ├── screen1.jpeg
+│       └── screen2.jpg
 │
 ├── data.ts
 ├── next.config.ts
@@ -143,8 +327,6 @@ Portfolio/
 ├── package-lock.json
 └── README.md
 ```
-
-The project uses a Next.js application structure with dedicated components, reusable data and public assets.
 
 ---
 
@@ -157,8 +339,6 @@ Make sure you have the following installed:
 * **Node.js 18+**
 * **npm**
 * **Git**
-
----
 
 ### 1. Clone the repository
 
@@ -226,32 +406,6 @@ npm run lint
 
 Runs ESLint to check the project for code-quality issues.
 
-These scripts are currently configured in the project's `package.json`.
-
----
-
-## 🌐 Deployment
-
-This project can be deployed on platforms that support Next.js applications.
-
-For example:
-
-* Vercel
-* Netlify
-* Other Node.js-compatible hosting platforms
-
-For a production deployment, first create the production build:
-
-```bash
-npm run build
-```
-
-Then start the application with:
-
-```bash
-npm run start
-```
-
 ---
 
 ## 🎨 Customization
@@ -262,7 +416,7 @@ Most of the portfolio's personal information is centralized in:
 data.ts
 ```
 
-You can update information such as:
+You can update:
 
 * Personal introduction
 * Skills
@@ -297,33 +451,109 @@ The project data also includes experience, contact information, social links and
 
 ---
 
-## 🔗 Links
+## 🌐 Deployment
 
-* **GitHub:** https://github.com/imp-521
-* **LinkedIn:** http://www.linkedin.com/in/afshinsohrabi
-* **Telegram:** https://t.me/imp_521
+This project is currently deployed on **Netlify**.
+
+### Live Website
+
+👉 **https://cool-cat-51bffb.netlify.app/**
+
+### Deployment Flow
+
+```text
+GitHub Repository
+       │
+       ▼
+    Netlify
+       │
+       ▼
+Production Build
+       │
+       ▼
+Live Portfolio
+```
+
+---
+
+## 🗺️ Roadmap
+
+### ✅ Completed
+
+* [x] Responsive portfolio layout
+* [x] Hero section
+* [x] About section
+* [x] Skills section
+* [x] Experience timeline
+* [x] Education section
+* [x] Projects section
+* [x] Statistics section
+* [x] Testimonials
+* [x] Contact section
+* [x] Social links
+* [x] Responsive navigation
+* [x] Animations
+* [x] Theme support
+* [x] Production deployment
+* [x] Portfolio screenshots
+
+### 🚧 Future Improvements
+
+* [ ] Improve SEO metadata
+* [ ] Add Open Graph preview
+* [ ] Improve accessibility
+* [ ] Optimize image loading
+* [ ] Add structured data / JSON-LD
+* [ ] Add project filtering
+* [ ] Add dedicated project detail pages
+* [ ] Add contact form
+* [ ] Add GitHub activity integration
+* [ ] Add blog / articles section
+* [ ] Add GitHub Actions CI/CD
+
+---
+
+## 📬 Contact
+
+<div align="center">
+
+### Let's build something great together.
+
+<br />
+
+**GitHub**
+
+[github.com/imp-521](https://github.com/imp-521)
+
+**LinkedIn**
+
+[linkedin.com/in/afshinsohrabi](http://www.linkedin.com/in/afshinsohrabi)
+
+**Telegram**
+
+[t.me/imp_521](https://t.me/imp_521)
+
+</div>
 
 ---
 
 ## 👨‍💻 Author
 
-**Afshin Sohrabi**
+<div align="center">
 
-Frontend Developer focused on building modern, responsive and interactive web applications with React and Next.js.
+### Afshin Sohrabi
 
-### Technologies I Work With
+**Frontend Developer · React · Next.js · TypeScript**
 
-```text
-JavaScript
-TypeScript
-React
-Next.js
-Tailwind CSS
-HTML
-CSS
-Git
-GitHub
-```
+Building modern, responsive and interactive web experiences.
+
+<br />
+
+[![GitHub](https://img.shields.io/badge/GitHub-imp--521-181717?style=for-the-badge\&logo=github)](https://github.com/imp-521)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Afshin%20Sohrabi-0A66C2?style=for-the-badge\&logo=linkedin)](http://www.linkedin.com/in/afshinsohrabi)
+[![Telegram](https://img.shields.io/badge/Telegram-@imp__521-26A5E4?style=for-the-badge\&logo=telegram)](https://t.me/imp_521)
+
+</div>
 
 ---
 
@@ -333,12 +563,14 @@ This project is intended as a personal portfolio project.
 
 ---
 
-## ⭐ Support
+<div align="center">
 
-If you find this project interesting or useful, feel free to ⭐ star the repository and explore the source code.
+### Built with ❤️ and a lot of ☕
 
----
+**Next.js · React · TypeScript · Tailwind CSS**
 
-<p align="center">
-  Built with ❤️ using Next.js and React
-</p>
+<br />
+
+⭐ **If you found this project useful, consider starring the repository.**
+
+</div>
